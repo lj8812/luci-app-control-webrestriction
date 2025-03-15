@@ -1,0 +1,8 @@
+<%+header%>
+<div class="cbi-section">
+    <div class="alert-message" style="padding: 10px;">
+        <%:当前模式%>: <strong><%=luci.http.pcdata(translate(self.mode))%></strong><br>
+        <%:受控设备数量%>: <strong><%=self.device_count%></strong>
+    </div>
+</div>
+<%+footer%>
